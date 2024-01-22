@@ -89,4 +89,26 @@ nav, .banner {
     border: 2px solid #3882F6;
     height: 150px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
+
+.quotes {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #E5E7EB;
+    height: 200px;
+    padding: 51px;
+}
+.quotes blockquote p {
+    margin:auto;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quotes blockquote cite {
+    font-style: normal;
+    float: right;
+    font-size:20px;
+}
+
