@@ -31,10 +31,10 @@ nav, .banner {
     font-weight: bolder;
     font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 350px;
+    width: 50%;
 }
 .banner-img {
-  width: 500px;
+  width: 40%;
   border: 1px solid slategrey;
   display: flex;
   align-items: center;
@@ -50,6 +50,7 @@ nav, .banner {
     color: white;
     font-size: 18px;
     padding: 5px 15px;
+    border:none;
     border-radius: 10px;
 }
 .navbar-logo {
@@ -61,4 +62,31 @@ nav, .banner {
 }
 .banner-text {
     margin-right: 10%;
+}
+.main {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-infos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+}
+.main-infos__title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.main-infos__items {
+    width: 20%;
+}
+
+.main-infos__items div {
+    border: 2px solid #3882F6;
+    height: 150px;
+    border-radius: 10px;
 }
