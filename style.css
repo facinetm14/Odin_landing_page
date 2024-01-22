@@ -1,48 +1,58 @@
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     background-color: #1F2937;
     color: #F9FAF8;
     margin: 5px;
     height: 400px;
 }
-nav, .banner {
+
+nav,
+.banner {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
     padding-left: 10%;
     padding-right: 10%;
 }
+
 .navbar-link {
     list-style-type: none;
     display: inline-flex;
 }
+
 .navbar-link li {
     display: inline-block;
     margin: 10px;
 }
+
 .banner {
     margin-top: 50px;
 }
+
 .banner-title {
     font-weight: bolder;
     font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
     width: 50%;
 }
+
 .banner-img {
-  width: 40%;
-  border: 1px solid slategrey;
-  display: flex;
-  align-items: center;
-  height: 150px;
+    width: 40%;
+    border: 1px solid slategrey;
+    display: flex;
+    align-items: center;
+    height: 150px;
 }
+
 .banner-img p {
-  margin: auto;
+    margin: auto;
 }
+
 .btn-signup {
     margin-left: 10%;
     margin-top: 10px;
@@ -50,19 +60,23 @@ nav, .banner {
     color: white;
     font-size: 18px;
     padding: 5px 15px;
-    border:none;
+    border: none;
     border-radius: 10px;
 }
+
 .navbar-logo {
     font-size: 24px;
 }
 
-.navbar-link, .banner-title_desc {
+.navbar-link,
+.banner-title_desc {
     font-size: 18px;
 }
+
 .banner-text {
     margin-right: 10%;
 }
+
 .main {
     margin-top: 20px;
     text-align: center;
@@ -75,6 +89,7 @@ nav, .banner {
     margin-right: 10%;
     padding-top: 20px;
 }
+
 .main-infos__title {
     color: #1F2937;
     font-size: 36px;
@@ -99,8 +114,9 @@ nav, .banner {
     height: 200px;
     padding: 51px;
 }
+
 .quotes blockquote p {
-    margin:auto;
+    margin: auto;
     font-size: 36px;
     font-weight: light;
     font-style: italic;
@@ -109,6 +125,38 @@ nav, .banner {
 .quotes blockquote cite {
     font-style: normal;
     float: right;
-    font-size:20px;
+    font-size: 20px;
 }
 
+.footer {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+.btn-signup--footer {
+    border: 1px solid white;
+    margin-right: 10%;
+}
+
+.footer--text {
+    margin-left: 10%;
+}
+
+.footer--text-bottom {
+    text-align: center;
+    height: 50px;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
