@@ -3,8 +3,7 @@ This project is from <a href="https://www.theodinproject.com/">TheOdinProject</a
 ## The given mock-up
 Feel free to visit 👉 <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png">here<a/> to see the design image
 ## Purpose
-Throught this project, I wanted to refresh my css skills on layouts. Here, I used <strong>flexbox</strong>(the flexible layout), a modern css layout model which provides an efficient way to arrange layouts.
-Which makes the page responsive. <a href="https://internetingishard.netlify.app/html-and-css/flexbox/index.html">More about layout...</a>
+Throughout this project, I aimed to refresh my CSS skills, particularly in the area of layouts. I used Flexbox, the flexible layout model—a modern CSS layout approach that offers an efficient way to organize page structures. This feature contributes to making the page responsive.. <a href="https://internetingishard.netlify.app/html-and-css/flexbox/index.html">More about layout...</a>
 ## Preview
 <a>https://facinetm14.github.io/Odin_landing_page/<a/>
 ## Feedback 
